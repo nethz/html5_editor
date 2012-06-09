@@ -1,23 +1,23 @@
-var function_json = {
-    "function":
+var function_json = 
     {
-        "name": "test",
+        "name": "test_function",
         "color": "#00ffff",
         "script": "lua lualualaulaualualu",
-        "parameter":
+		"info": "fot test",
+        "parameters":
+		[
+			{
+				"type": "string"
+			},
+			{
+				"type": "bool"
+			},
+			{
+				"type": "number"
+			}
+		],
+        "ret":
         {
-            "name": "p1",
             "type": "string"
-        },
-        "parameter":
-        {
-            "name": "p2",
-            "type": "bool",
-            "type": "bool"
-        },
-        "return":
-        {
-            "name": "return"
         }
     }
-}

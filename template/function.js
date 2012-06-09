@@ -1,7 +1,7 @@
 function draw_rect(ctx, json)
 {
 
-document.write(json);
+		document.write(json);
 			 ctx.stroke();  
 		ctx.fillStyle = '#00f'; 
 		 ctx.strokeStyle = '#f00'; 
